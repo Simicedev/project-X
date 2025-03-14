@@ -1,4 +1,102 @@
-/* body{
-    background-image: url(/media/project-x\ 1.png);
+@import "./products.css";
 
-} */
+/* Global Resets*/
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  font-size: 100%;
+  font-family: "Roboto";
+  margin: 0;
+}
+
+:root {
+  --size-xxs: 14px;
+  --size-xs: 16px;
+  --size-s: 18px;
+  --size-m: 20px;
+  --size-l: 25px;
+  --size-xl: 30px;
+  --size-xxl: 35px;
+  --size-huge: 64px;
+
+  --color-blue: #136797;
+  --color-black: #050505;
+
+  --skeleton-color: #6a6868;
+
+  --color-menu-cart: #202122;
+
+  --btn-color: rgb(61, 59, 58);
+  --btn-color-hover: #0c4c71;
+
+  --bg-nav-foot: linear-gradient(#000000, #3a4144);
+  --bg-color-white: white;
+  --bg-color-black: #050505;
+
+  --padding-section-no-top: 0rem 30px 2rem 30px;
+  --padding-section-with-top: 2rem 30px 2rem 30px;
+  --padding-section-bottom: 0rem 0px 2rem 0px;
+  --padding-hero: 2rem 0px 2rem 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 72%);
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 33%);
+  border-radius: 100vh;
+}

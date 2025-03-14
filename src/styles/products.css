@@ -1,0 +1,22 @@
+.c-template-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-container {
+  display: flex;
+}
+
+.c-container h1 {
+  display: flex;
+}
+
+.c-container h3 {
+  display: flex;
+}
+
+@media only screen and (width > 400px) {
+  .c-template-hero {
+    flex-direction: row;
+  }
+}

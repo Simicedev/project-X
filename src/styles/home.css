@@ -1,0 +1,6 @@
+.background-img{
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+    color: white;
+}

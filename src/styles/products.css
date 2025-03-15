@@ -1,22 +1,95 @@
 .c-template-hero {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  padding: 2rem 1rem 2rem 1rem;
+  gap: 2rem;
+}
+
+.c-h-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .c-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
 }
 
-.c-container h1 {
+.c-searchbar-cont {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.c-container h3 {
+.c-searchbar {
   display: flex;
+  justify-content: baseline;
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.c-filter-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.c-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
 @media only screen and (width > 400px) {
-  .c-template-hero {
+  .c-h-container {
     flex-direction: row;
+    gap: 3rem;
   }
+
+  .c-container {
+    display: flex;
+    text-align: start;
+    width: 100%;
+  }
+
+  .c-searchbar {
+    display: flex;
+    justify-content: baseline;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (width > 600px) {
+  .c-searchbar {
+    max-width: 400px;
+  }
+}
+
+.c-templates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-card-cont {
+  display: flex;
+  width: 200px;
 }

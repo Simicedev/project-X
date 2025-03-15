@@ -1,7 +1,10 @@
 @import "./products.css";
 @import "./home.css";
 /* Global Resets*/
-
+* {
+  margin: none;
+  color: #eef4ed;
+}
 
 html {
   font-size: 1rem;

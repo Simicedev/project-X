@@ -1,4 +1,42 @@
+html {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* hero-section */
+.text-box {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-.buttonHero {
+.hero-section h1 {
+  margin-bottom: 40px; /* Adjust as needed */
+}
+
+.hero-button {
+  margin-top: 30px;
+  margin-bottom: 50px;
   background-color: #8390fa;
+  width: 200px;
+}
+
+.row-hero {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* opacity looking bg */
+  border-radius: 20px;
+}
+/* main-section */
+.main-section1 {
+  background-color: #eef4ed;
+}
+.heading1-main {
+  font-size: 23px;
+}
+.tos-p {
+  font-size: 11px;
+}
+
+.main-section2 {
+  background-color: #dee2de;
 }

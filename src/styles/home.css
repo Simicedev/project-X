@@ -1,11 +1,3 @@
-.background-img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-width: 100vh;
-  position: relative;
-  color: white;
-}
 
 .buttonHero {
   background-color: #8390fa;

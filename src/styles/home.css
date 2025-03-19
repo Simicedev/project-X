@@ -10,7 +10,7 @@ html {
 }
 
 .hero-section h1 {
-  margin-bottom: 40px; /* Adjust as needed */
+  margin-bottom: 40px; 
 }
 .membership-btn{
   text-decoration: none;
@@ -21,6 +21,9 @@ html {
   background-color: #8390fa;
   width: 200px;
 }
+.hero-button:hover {
+    transform: scale(1.02); /* Slightly enlarges the button */
+  }
 
 .row-hero {
   display: flex;

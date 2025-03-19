@@ -12,7 +12,9 @@ html {
 .hero-section h1 {
   margin-bottom: 40px; /* Adjust as needed */
 }
-
+.membership-btn{
+  text-decoration: none;
+}
 .hero-button {
   margin-top: 30px;
   margin-bottom: 50px;
